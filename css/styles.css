@@ -44,7 +44,6 @@ header {
     padding: 0;
     margin: 0 auto 0 auto;
     width: 70%;
-    background-color: #fff;
     height: 50px;
     display: flex;
     justify-content: center;
@@ -52,6 +51,7 @@ header {
 }
 .botonera ul {
     display: flex;
+    background-color: #fff;
     justify-content: center;
     align-items: center;
     gap: 10px;
