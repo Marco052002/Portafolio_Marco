@@ -1,0 +1,283 @@
+/* RESET BÁSICO */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 0 !important;
+}
+body {
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #181a1b;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* HEADER */
+header {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #232428;
+    z-index: 100;
+}
+.logo {
+    padding: 0;
+    margin: 0 1px 0 0;
+    width: 120px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.botonera {
+    padding: 0;
+    margin: 0 auto 0 auto;
+    width: 70%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botonera ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.botonera a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: 500;
+}
+.botonera li {
+    text-align: center;
+}
+.red {
+    padding: 0;
+    margin: 0 10px 0 0;
+    width: 15%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.red ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red li {
+    margin: 0;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #313236;
+    border-radius: 50%;
+}
+.red a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/* CONTENIDO 1 */
+.contenido1 {
+    margin: 0;
+    padding: 120px 0 0 10vw;
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(90deg, #232428 60%, #313236 100%);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 40px;
+}
+.bloque1 {
+    width: 320px;
+    height: 220px;
+    background: #fff;
+    border-radius: 8px;
+}
+.textos1 {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-top: 30px;
+}
+.textos1 h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #fff;
+}
+.textos1 p {
+    font-size: 1.1em;
+    color: #bdbdbd;
+}
+.textos1 button {
+    width: 120px;
+    padding: 10px 0;
+    background: #fff;
+    color: #232428;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.botones1 {
+    display: flex;
+    gap: 20px;
+    margin: 30px 0 0 0;
+}
+.botones1 button {
+    width: 120px;
+    padding: 10px 0;
+    background: #313236;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* CONTENIDO 2 */
+.contenido2 {
+    margin: 0;
+    padding: 40px 0 0 10vw;
+    width: 100%;
+    height: 220px;
+    background: linear-gradient(90deg, #232428 60%, #313236 100%);
+}
+.fila2 {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.bloque2 {
+    width: 220px;
+    height: 90px;
+    background: #fff;
+    border-radius: 8px;
+}
+.fila2chica {
+    display: flex;
+    gap: 30px;
+}
+.bloque2chico {
+    width: 120px;
+    height: 60px;
+    background: #fff;
+    border-radius: 8px;
+}
+.barra2 {
+    width: 60vw;
+    height: 18px;
+    background: #fff;
+    border-radius: 8px;
+    margin: 30px 0 0 0;
+}
+
+/* CONTENIDO 3 */
+.contenido3 {
+    width: 100%;
+    background: #181a1b;
+    padding: 40px 0 0 0;
+}
+.cabecera3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    margin: 0 auto 30px auto;
+}
+.titulo3 {
+    width: 180px;
+    height: 60px;
+    background: #fff;
+    border-radius: 8px;
+}
+.menu3 {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 8px;
+}
+.fila3 {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    width: 80vw;
+    margin: 0 auto;
+}
+.tarjeta3 {
+    width: 180px;
+    height: 180px;
+    background: #fff;
+    border-radius: 8px;
+}
+
+/* CONTENIDO 4 */
+.contenido4 {
+    width: 100%;
+    background: #181a1b;
+    padding: 40px 0 0 0;
+}
+.fila4 {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    width: 80vw;
+    margin: 0 auto 30px auto;
+}
+.bloque4 {
+    width: 220px;
+    height: 90px;
+    background: #fff;
+    border-radius: 8px;
+}
+.pie4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    margin: 30px auto 0 auto;
+}
+.texto4 {
+    width: 220px;
+    height: 60px;
+    background: #fff;
+    border-radius: 8px;
+}
+.botones4 {
+    display: flex;
+    gap: 20px;
+}
+.botones4 button {
+    width: 120px;
+    padding: 10px 0;
+    background: #313236;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+}
